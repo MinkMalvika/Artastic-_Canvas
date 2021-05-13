@@ -1,0 +1,9 @@
+.main_section{
+    background-image: url(../images/background_index/cover1.jpeg);
+    padding: 100px;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}

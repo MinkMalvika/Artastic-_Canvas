@@ -1,0 +1,98 @@
+/* Header styling */
+
+header{
+    height: 190px;
+    color: darkgrey;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 42px;
+    
+   }
+ /* upper_section_nav styling */
+   header > .upper_section_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    background-color: black;
+    padding: 0px 30px 20px 30px;
+    }
+ /* Navigation bar styling */
+  header > .upper_section_nav >nav{
+       display: flex;
+       align-items: flex-end; 
+       justify-content: space-between;
+       font-size: small;
+      
+     }
+ header>.upper_section_nav> nav> .home{
+         padding-right: 20px;
+     }
+ header>.upper_section_nav> nav> .about{
+        padding-right: 20px;
+    }
+  
+/* header> .upper_section_nav> nav a{
+    font-family:'Roboto', sans-serif;
+    color: blanchedalmond;
+    text-decoration: none;
+    transition: 0.5s;
+}
+header> .upper_section_nav> nav a :hover{
+    color: crimson;
+} */
+     nav a{
+        font-family: 'Roboto', sans-serif;
+        color: blanchedalmond;
+         text-decoration:none; 
+        transition: 0.5s;
+    }
+    nav a:hover{
+        color: rgb(247, 17, 17);
+        border-bottom: 2px solid rgb(247, 17, 17) ;
+    } 
+
+/* Logo section styling */
+
+.logo_name{
+     align-items: center;
+    
+     
+ }
+
+ .logo_image img{
+     
+     /* padding-right: 40px; */
+    height: 100%;
+    width: 200px;
+    align-items: center;
+ }
+ 
+ 
+ /* Social handle styling */
+.social_handle{
+       display: flex;
+       align-items: flex-end;
+       padding: 10px 10px 0px 10px;
+       justify-content: space-between;
+       font-size: 1.5em;
+   }
+
+.social_handle i{
+    margin: 10px;
+}
+
+/* lower_section_nav styling */
+.lower_section_nav{
+    background-color: rgba(0, 0, 0, 0.476);
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+}
+.name_moto{
+    align-items: center;
+    letter-spacing:10px;
+    word-spacing: 15px;
+    font-size: 20px;
+}
