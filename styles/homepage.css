@@ -26,10 +26,11 @@
     background-color: rgb(93, 5, 49);
     opacity: 0.7;
     padding: 0px 20px;
+    border-radius: 6px;
 }
 .main_section> .welcome>.art_journey>.story_container{
     color: white;
-    
+
 }
 .main_section> .welcome> .self_photo{
     padding-left:  10px;
