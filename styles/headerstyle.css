@@ -15,6 +15,7 @@ header{
     align-items: flex-end; 
     background-color: black;
     padding: 0px 30px 20px 30px;
+   
     }
  /* Navigation bar styling */
   header > .upper_section_nav >nav{
@@ -22,6 +23,7 @@ header{
        align-items: flex-end; 
        justify-content: space-between;
        font-size: small;
+       flex-wrap: wrap;
       
      }
  header>.upper_section_nav> nav> .home{
@@ -79,7 +81,12 @@ header> .upper_section_nav> nav a :hover{
 
 .social_handle i{
     margin: 10px;
+    color: blanchedalmond;
 }
+ .social_handle i:hover{
+     color: rgb(162, 19, 181);
+ }
+
 
 /* lower_section_nav styling */
 .lower_section_nav{
