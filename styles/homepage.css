@@ -8,16 +8,16 @@
     background-size: cover
    
 }
-.main_section{
+/* .main_section{
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .main_section> .photo_gallery{
     background-color: thistle;
     /* width: 150px; */
     padding: 0px 80px;
-    margin: 0px 10px;
+    margin: 30px;
 }
 
 .main_section> .welcome{
