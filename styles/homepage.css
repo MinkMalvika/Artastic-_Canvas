@@ -8,17 +8,45 @@
     background-size: cover
    
 }
-/* .main_section{
-    display: flex;
-    justify-content: space-between;
-} */
+.main_section{
+    align-items: center;  
+    justify-content: center;  
+} 
 
 .main_section> .photo_gallery{
-    background-color: thistle;
-    /* width: 150px; */
+    /* background-color: thistle; */
+    /* align-items: center; */
+    width: 800px;
+    height:500px;
     padding: 0px 80px;
     margin: 30px;
+    border-radius: 10px;
+    overflow: hidden;
 }
+.main_section> .photo_gallery> .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.main_section> .photo_gallery> .slides input{
+    display: none;
+}
+.main_section> .photo_gallery> .slides> .slide{
+    width: 200%;
+    transition: 2s;
+}
+.main_section> .photo_gallery> .slides> .slide img{
+    width: 800px;
+    height: 500px;
+}
+
+
+
+/* .main_section> .photo_gallery> .slides img{
+    width: 800px;
+    height: 500px;
+} */
 
 .main_section> .welcome{
     display: flex;
